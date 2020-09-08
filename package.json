@@ -1,0 +1,25 @@
+{
+  "name": "secretary",
+  "version": "1.0.0",
+  "description": "Catpea micro-format content management system for the command line.",
+  "main": "index.js",
+  "scripts": {
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catpea/secretary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catpea/secretary/issues"
+  },
+  "homepage": "https://github.com/catpea/secretary#readme",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "lodash": "^4.17.20"
+  }
+}
