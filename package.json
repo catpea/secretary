@@ -4,7 +4,7 @@
   "description": "Catpea micro-format content management system for the command line.",
   "main": "index.js",
   "scripts": {
-    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;",
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; git push;",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
