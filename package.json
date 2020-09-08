@@ -2,10 +2,13 @@
   "name": "secretary",
   "version": "1.0.3",
   "description": "Catpea micro-format content management system for the command line.",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "save": "git add .; git commit -m 'New Release'; git push; npm version patch; git push;",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "secretary": "index.mjs"
   },
   "repository": {
     "type": "git",
@@ -19,7 +22,10 @@
   },
   "homepage": "https://github.com/catpea/secretary#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "commander": "^6.1.0",
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "pretty": "^2.0.0"
   }
 }
