@@ -1,6 +1,6 @@
 {
   "name": "secretary",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Catpea micro-format content management system for the command line.",
   "main": "index.mjs",
   "scripts": {
