@@ -1,10 +1,19 @@
-export default main;
+#!/usr/bin/env -S node --experimental-modules --trace-warnings
 
-function main(options){
+import commander from 'commander';
+const { Command } = commander;
+const program = new Command();
 
-  console.log('making reports....');
-  console.log(options);
+program
+  .option('-f, --force', 'force report');
 
+program.parse(process.argv);
+
+async function main({}){
+
+  console.log('Executing main...');
 
 
 }
+
+main({})
